@@ -21,9 +21,9 @@ Gem::Specification.new do |s|
   s.add_dependency('fog-core', ">= 1.8.0")
   s.add_dependency('unf')
   s.add_dependency('activemodel')
+  s.add_dependency('fog-aws')
 
   s.add_development_dependency "rspec"
-  s.add_development_dependency "fog-aws"
   s.add_development_dependency "bundler"
   s.add_development_dependency "jeweler"
 
